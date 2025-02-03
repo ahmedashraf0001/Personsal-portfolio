@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.page{
+    margin: 10px;
+    max-width: 700px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.nav-title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-width: 121px;
+}
+nav img{
+    width: 24px;
+}
+.nav-bar{
+    display: flex;
+    gap: 8px;
+    list-style: none;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 250px;
+    flex-wrap: wrap;
+}
+.title h1{
+    font-size: 50px;
+    
+}
+.main h1,
+.title h1,
+footer div h1,
+.copyright
+{
+    font-family: "Caveat", serif;
+}
+.title h5{
+    font-size: 11.5px;
+    color: rgb(128, 128, 128);
+    font-weight: 200;
+}
+.top-section{
+    border: 1.5px solid black;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1.5px solid black;
+    border-bottom: none;
+}
+.main h1{
+    font-size: 15px;
+}
+.row-01{
+    flex: 1;
+    border-bottom: 1.5px solid black;
+}
+.row-01 h1{
+    margin: 15px 0 10px 20px;
+    font-size: 25px;
+}
+.row-01 ul{
+    display: flex;
+    flex-direction: column;
+}
+.row-01 a{
+    text-decoration: none;
+    color: black;
+    font-size: 12.5px;
+    font-weight: 500;
+    border-bottom: 1.5px solid black;
+    padding: 10px 25px;
+}
+
+.row-02{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1.5px solid black;
+    border-top: none;
+    flex: 1.5;
+    min-width: 260px;
+}
+.row-01,.row-03{
+    min-width: 200px;
+}
+.col-01{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    padding-top: 10px;
+    padding-left: 20px;
+    flex-grow: 1;
+    border-bottom: 1.5px solid black; 
+}
+.col-01 div{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.col-01 h1, .col-02 h1{
+    font-size: 23px;
+
+}
+.col-01 div p, .col-02 div p, .row-03 p{
+    font-size: 13px;
+}
+.col-01 div a, .col-02 div a{
+    font-size: 12px;
+}
+.col-02{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-grow: 1;
+}
+.row-02 a{
+    text-decoration: none;
+    color: rgb(15, 131, 227);
+}
+.col-02 div{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.row-03{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex:1;
+    padding-top: 17px;
+    padding-left: 20px;
+    padding-right: 10px;
+    border-bottom: 1.5px solid black;
+
+}
+.row-03 h1{
+    font-size: 23px;
+}
+.row-03 ul{
+    padding-left: 5px;
+    list-style: none;
+    margin-bottom: 15px;
+}
+.row-03 ul li{
+    font-size: 12px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 1.5px solid black; 
+    border-top: none;
+    padding: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    max-height: 700px;
+}
+.reviews{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 5px;
+}
+.review-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1.5px solid black; 
+    border-radius: 25px;
+    padding: 15px;
+    height: 100px;
+    min-width: 160px;
+    flex:1;
+}
+.review-container #p-02{
+    color: rgba(128, 128, 128, 0.769);
+    font-size: 12px;
+}
+
+footer div{
+    text-align: start;
+}
+footer div h1{
+    font-size: 30px;
+}
+.copyright{
+    margin-top: 80px;
+    font-size: 25px;
+    font-weight: 600;
+}
